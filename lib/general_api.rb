@@ -27,7 +27,7 @@ class General_api
     headers = nil
     post_body = nil
     response = Swagger::Request.new(:GET, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    response.map {|response|Country.new(response)}
+    response.map {|response|SubtleData::Country.new(response)}
   end
 
 def self.get_all_states (api_key,use_cache,opts={})
@@ -49,7 +49,7 @@ def self.get_all_states (api_key,use_cache,opts={})
     headers = nil
     post_body = nil
     response = Swagger::Request.new(:GET, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    response.map {|response|State.new(response)}
+    response.map {|response|SubtleData::State.new(response)}
   end
 
 end

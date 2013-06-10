@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
     s.summary           = "Ruby Client Library for SubtleData",
     s.description       = "Ruby Client Library for SubtleData",
     s.rubyforge_project = "subtledata"
-    s.files             = `find lib -name "*.rb"`.split("\n") + `find models -name "*.rb"`.split("\n")
+    s.files             = `find lib -name "*.rb"`.split("\n")
 =begin
     s.files             = `git ls-files`.split("\n")
     s.test_files        = `git ls-files -- {test,spec,features}/*`.split("\n")

@@ -50,7 +50,7 @@ class Concessions_api
       end
     end
     response = Swagger::Request.new(:POST, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    ConcessionOrderResults.new(response)
+    SubtleData::ConcessionOrderResults.new(response)
   end
 
 end

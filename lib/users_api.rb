@@ -48,7 +48,7 @@ class Users_api
       end
     end
     response = Swagger::Request.new(:POST, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    NewUser.new(response)
+    SubtleData::NewUser.new(response)
   end
 
 def self.get_user (user_id,api_key,use_cache,opts={})
@@ -72,7 +72,7 @@ def self.get_user (user_id,api_key,use_cache,opts={})
     headers = nil
     post_body = nil
     response = Swagger::Request.new(:GET, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    User.new(response)
+    SubtleData::User.new(response)
   end
 
 def self.delete_user (user_id,api_key,opts={})
@@ -96,7 +96,7 @@ def self.delete_user (user_id,api_key,opts={})
     headers = nil
     post_body = nil
     response = Swagger::Request.new(:DELETE, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    DeleteUserStatus.new(response)
+    SubtleData::DeleteUserStatus.new(response)
   end
 
 def self.auth_user (api_key,body,opts={})
@@ -139,7 +139,7 @@ def self.auth_user (api_key,body,opts={})
       end
     end
     response = Swagger::Request.new(:POST, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    AuthResponse.new(response)
+    SubtleData::AuthResponse.new(response)
   end
 
 def self.search_users_by_name (user_name,api_key,use_cache,opts={})
@@ -163,7 +163,7 @@ def self.search_users_by_name (user_name,api_key,use_cache,opts={})
     headers = nil
     post_body = nil
     response = Swagger::Request.new(:GET, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    User.new(response)
+    SubtleData::User.new(response)
   end
 
 def self.get_users_cards (user_id,api_key,opts={})
@@ -187,7 +187,7 @@ def self.get_users_cards (user_id,api_key,opts={})
     headers = nil
     post_body = nil
     response = Swagger::Request.new(:GET, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    response.map {|response|Card.new(response)}
+    response.map {|response|SubtleData::Card.new(response)}
   end
 
 def self.create_card_for_user (user_id,api_key,body,opts={})
@@ -232,7 +232,7 @@ def self.create_card_for_user (user_id,api_key,body,opts={})
       end
     end
     response = Swagger::Request.new(:POST, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    CardStatus.new(response)
+    SubtleData::CardStatus.new(response)
   end
 
 def self.delete_user_credit_card (user_id,card_id,api_key,opts={})
@@ -258,7 +258,7 @@ def self.delete_user_credit_card (user_id,card_id,api_key,opts={})
     headers = nil
     post_body = nil
     response = Swagger::Request.new(:DELETE, path, {:params=>queryopts,:headers=>headers, :body=>post_body }).make.body
-    Status.new(response)
+    SubtleData::Status.new(response)
   end
 
 end
