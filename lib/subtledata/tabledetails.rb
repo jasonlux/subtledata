@@ -1,5 +1,5 @@
-class TableDetails
-  module SubtleData
+module SubtleData
+  class TableDetails
     attr_accessor :pos_table_id, :subtledata_id, :revenue_center_name, :revenue_center_id, :open_tickets, :name
 
     # :internal => :external

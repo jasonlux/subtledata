@@ -1,5 +1,5 @@
-class NewUser
-  module SubtleData
+module SubtleData
+  class NewUser
     attr_accessor :user_guid, :user_id, :device_id
 
     # :internal => :external

@@ -1,5 +1,5 @@
-class AuthResponse
-  module SubtleData
+module SubtleData
+  class AuthResponse
     attr_accessor :device_id, :user_id, :result, :success, :error
 
     # :internal => :external

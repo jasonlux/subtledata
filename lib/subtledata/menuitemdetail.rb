@@ -1,5 +1,5 @@
-class MenuItemDetail
-  module SubtleData
+module SubtleData
+  class MenuItemDetail
     attr_accessor :description, :price, :name, :revenue_center_id, :item_id, :item_images
 
     # :internal => :external

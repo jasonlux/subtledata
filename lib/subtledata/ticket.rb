@@ -1,5 +1,5 @@
-class Ticket
-  module SubtleData
+module SubtleData
+  class Ticket
     attr_accessor :date_closed, :tax, :date_opened, :total, :location_id, :employee_id, :ticket_open, :pre_auth_payments, :remaining_balance, :ticket_id, :table_name, :revenue_center_id, :user_id, :pre_auth_cards, :discount, :external_payments, :cover_count, :subtotal, :service_charge, :date_modified, :items, :pos_ticket_id, :table_id, :payments, :connected_users
 
     # :internal => :external

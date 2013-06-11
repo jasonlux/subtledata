@@ -1,5 +1,5 @@
-class NewConnection
-  module SubtleData
+module SubtleData
+  class NewConnection
     attr_accessor :latitude, :cover_number, :user_id, :longitude, :device_id
 
     # :internal => :external

@@ -1,5 +1,5 @@
-class TableMinimal
-  module SubtleData
+module SubtleData
+  class TableMinimal
     attr_accessor :pos_table_id, :subtledata_id, :revenue_center_name, :name, :revenue_center_id
 
     # :internal => :external

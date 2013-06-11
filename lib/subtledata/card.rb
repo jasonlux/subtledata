@@ -1,5 +1,5 @@
-class Card
-  module SubtleData
+module SubtleData
+  class Card
     attr_accessor :name_on_card, :card_type, :expiration_year, :card_id, :expiration_month, :nickname, :last_4_digits
 
     # :internal => :external

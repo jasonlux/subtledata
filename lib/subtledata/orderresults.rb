@@ -1,5 +1,5 @@
-class OrderResults
-  module SubtleData
+module SubtleData
+  class OrderResults
     attr_accessor :seconds_to_wait, :ad_url, :result, :success
 
     # :internal => :external

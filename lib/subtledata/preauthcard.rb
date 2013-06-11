@@ -1,5 +1,5 @@
-class PreAuthCard
-  module SubtleData
+module SubtleData
+  class PreAuthCard
     attr_accessor :name_on_card, :card_type, :billing_address, :expiration_year, :card_id, :expiration_month, :billing_zip, :nickname, :last_4_digits
 
     # :internal => :external

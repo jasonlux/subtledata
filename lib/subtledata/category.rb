@@ -1,5 +1,5 @@
-class Category
-  module SubtleData
+module SubtleData
+  class Category
     attr_accessor :items, :has_items, :instructional_text, :category_images, :category_id, :has_subcategories, :category_name
 
     # :internal => :external

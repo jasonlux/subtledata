@@ -1,5 +1,5 @@
-class Local
-  module SubtleData
+module SubtleData
+  class Local
     attr_accessor :description, :category_id, :name, :modifier_list
 
     # :internal => :external

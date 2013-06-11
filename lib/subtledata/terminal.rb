@@ -1,5 +1,5 @@
-class Terminal
-  module SubtleData
+module SubtleData
+  class Terminal
     attr_accessor :revenue_center_name, :default_device, :terminal_id, :revenue_center_id, :ip_address, :name
 
     # :internal => :external

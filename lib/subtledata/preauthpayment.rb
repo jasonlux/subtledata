@@ -1,5 +1,5 @@
-class PreAuthPayment
-  module SubtleData
+module SubtleData
+  class PreAuthPayment
     attr_accessor :status, :tip_amount, :total_amount, :amount_before_tip, :payment_source, :external_payment_id, :external_response_field_1, :tender_type_name, :external_response_field_2, :external_response_field_3, :external_response_field_4
 
     # :internal => :external

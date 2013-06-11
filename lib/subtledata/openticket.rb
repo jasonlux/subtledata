@@ -1,5 +1,5 @@
-class OpenTicket
-  module SubtleData
+module SubtleData
+  class OpenTicket
     attr_accessor :employee_id, :user_id, :number_of_guests, :items, :tax, :discount, :pos_ticket_id, :remaining_balance, :table_id, :ticket_id, :date_opened, :table_name, :total, :subtotal, :service_charge
 
     # :internal => :external

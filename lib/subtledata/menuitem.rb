@@ -1,5 +1,5 @@
-class MenuItem
-  module SubtleData
+module SubtleData
+  class MenuItem
     attr_accessor :sku, :food_flag, :alcohol_flag, :display_name, :name, :merchandise_flag, :available_for_order, :price, :description, :_u_p_c, :_modifier_types, :item_images, :cost, :revenue_center_id, :item_id, :local_pos_id, :out_of_stock_flag
 
     # :internal => :external

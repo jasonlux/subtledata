@@ -1,5 +1,5 @@
-class CardPayment
-  module SubtleData
+module SubtleData
+  class CardPayment
     attr_accessor :name_on_card, :tip_amount, :expiration_year, :amount_before_tip, :tip_type, :card_id, :expiration_month, :mag_track_2, :mag_track_1, :signature_image, :tender_type_id, :billing_zip, :card_number
 
     # :internal => :external

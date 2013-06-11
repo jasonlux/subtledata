@@ -1,5 +1,5 @@
-class Country
-  module SubtleData
+module SubtleData
+  class Country
     attr_accessor :country_name, :country_id
 
     # :internal => :external

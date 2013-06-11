@@ -1,5 +1,5 @@
-class ConcessionOrderResults
-  module SubtleData
+module SubtleData
+  class ConcessionOrderResults
     attr_accessor :payment_success, :error, :ticket_id, :success, :result
 
     # :internal => :external

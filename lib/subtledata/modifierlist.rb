@@ -1,5 +1,5 @@
-class ModifierList
-  module SubtleData
+module SubtleData
+  class ModifierList
     attr_accessor :price, :name, :modifier_id, :description
 
     # :internal => :external

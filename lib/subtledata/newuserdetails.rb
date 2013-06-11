@@ -1,5 +1,5 @@
-class NewUserDetails
-  module SubtleData
+module SubtleData
+  class NewUserDetails
     attr_accessor :first_name, :last_name, :middle_name, :device_uuid, :dob, :email_address, :longitude, :cell_phone, :latitude, :password, :user_name
 
     # :internal => :external

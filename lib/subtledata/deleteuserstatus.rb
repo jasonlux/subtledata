@@ -1,5 +1,5 @@
-class DeleteUserStatus
-  module SubtleData
+module SubtleData
+  class DeleteUserStatus
     attr_accessor :result, :success, :error
 
     # :internal => :external

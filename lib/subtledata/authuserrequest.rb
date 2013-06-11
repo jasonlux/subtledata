@@ -1,5 +1,5 @@
-class AuthUserRequest
-  module SubtleData
+module SubtleData
+  class AuthUserRequest
     attr_accessor :username, :user_id, :device_uuid, :longitude, :latitude, :password
 
     # :internal => :external

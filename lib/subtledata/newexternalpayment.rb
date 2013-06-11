@@ -1,5 +1,5 @@
-class NewExternalPayment
-  module SubtleData
+module SubtleData
+  class NewExternalPayment
     attr_accessor :payment_source_name, :tip_amount, :payment_response_tracking_2, :payment_response_tracking_3, :payment_response_tracking_1, :payment_response_tracking_4, :amount_before_tip, :tender_type_id, :user_id, :device_id
 
     # :internal => :external

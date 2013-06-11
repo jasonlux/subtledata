@@ -1,5 +1,5 @@
-class NewCard
-  module SubtleData
+module SubtleData
+  class NewCard
     attr_accessor :name_on_card, :expiration_year, :card_nickname, :billing_zip, :expiration_month, :mag_track_2, :mag_track_1, :signature_image, :card_number
 
     # :internal => :external

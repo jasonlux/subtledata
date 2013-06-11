@@ -1,5 +1,5 @@
-class TicketStatus
-  module SubtleData
+module SubtleData
+  class TicketStatus
     attr_accessor :error, :ticket_id, :success, :result
 
     # :internal => :external

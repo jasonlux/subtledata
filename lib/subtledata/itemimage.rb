@@ -1,5 +1,5 @@
-class ItemImage
-  module SubtleData
+module SubtleData
+  class ItemImage
     attr_accessor :image_url, :image_type_id
 
     # :internal => :external

@@ -1,5 +1,5 @@
-class CardStatus
-  module SubtleData
+module SubtleData
+  class CardStatus
     attr_accessor :card_id, :result, :success, :error
 
     # :internal => :external

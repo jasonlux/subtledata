@@ -1,5 +1,5 @@
-class DiscountInfo
-  module SubtleData
+module SubtleData
+  class DiscountInfo
     attr_accessor :discount_type, :user_id, :discount_amount
 
     # :internal => :external

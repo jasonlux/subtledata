@@ -1,5 +1,5 @@
-class ConnectedUser
-  module SubtleData
+module SubtleData
+  class ConnectedUser
     attr_accessor :first_name, :last_name, :user_id, :dob, :email_address, :cover_number, :middle_name, :cell_phone, :user_name
 
     # :internal => :external

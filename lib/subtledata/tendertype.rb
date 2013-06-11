@@ -1,5 +1,5 @@
-class TenderType
-  module SubtleData
+module SubtleData
+  class TenderType
     attr_accessor :tender_type_id, :identifier, :name
 
     # :internal => :external

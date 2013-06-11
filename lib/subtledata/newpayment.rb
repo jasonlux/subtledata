@@ -1,5 +1,5 @@
-class NewPayment
-  module SubtleData
+module SubtleData
+  class NewPayment
     attr_accessor :tip_amount, :tip_type, :testing, :card_cvv, :card_id, :amount_before_tip, :user_id
 
     # :internal => :external

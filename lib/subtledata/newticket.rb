@@ -1,5 +1,5 @@
-class NewTicket
-  module SubtleData
+module SubtleData
+  class NewTicket
     attr_accessor :employee_id, :user_id, :number_of_people_in_party, :custom_ticket_name, :table_id, :revenue_center_id, :device_id
 
     # :internal => :external

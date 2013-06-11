@@ -1,5 +1,5 @@
-class Tab
-  module SubtleData
+module SubtleData
+  class Tab
     attr_accessor :payment_id, :name_on_card, :card_type, :expiration_year, :card_nickname, :card_id, :expiration_month, :pos_ticket_id, :table_id, :ticket_id, :table_name, :pre_auth_amount, :last_4_digits
 
     # :internal => :external

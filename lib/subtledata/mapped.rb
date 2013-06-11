@@ -1,5 +1,5 @@
-class Mapped
-  module SubtleData
+module SubtleData
+  class Mapped
     attr_accessor :minimum_order, :name, :_available_modifiers, :maximum_order, :category_id, :description
 
     # :internal => :external

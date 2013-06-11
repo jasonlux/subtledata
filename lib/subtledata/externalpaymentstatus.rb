@@ -1,5 +1,5 @@
-class ExternalPaymentStatus
-  module SubtleData
+module SubtleData
+  class ExternalPaymentStatus
     attr_accessor :result, :success, :error
 
     # :internal => :external

@@ -1,5 +1,5 @@
-class Status
-  module SubtleData
+module SubtleData
+  class Status
     attr_accessor :result, :success, :error
 
     # :internal => :external

@@ -1,5 +1,5 @@
-class Availablemodifier
-  module SubtleData
+module SubtleData
+  class Availablemodifier
     attr_accessor :name, :date_updated, :price, :available_to_order, :modifier_id, :description
 
     # :internal => :external

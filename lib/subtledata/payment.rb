@@ -1,5 +1,5 @@
-class Payment
-  module SubtleData
+module SubtleData
+  class Payment
     attr_accessor :payment_id, :card_type, :tip_amount, :total_amount, :expiration_year, :card_nickname, :name_on_tender, :expiration_month, :amount_before_tip, :credit_card_id, :last_4_digits
 
     # :internal => :external

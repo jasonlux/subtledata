@@ -1,5 +1,5 @@
-class State
-  module SubtleData
+module SubtleData
+  class State
     attr_accessor :abbreviation, :state_id, :country_id
 
     # :internal => :external

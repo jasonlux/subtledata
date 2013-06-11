@@ -1,5 +1,5 @@
-class Modifiertype
-  module SubtleData
+module SubtleData
+  class Modifiertype
     attr_accessor :local, :mapped
 
     # :internal => :external

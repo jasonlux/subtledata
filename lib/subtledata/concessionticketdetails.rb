@@ -1,5 +1,5 @@
-class ConcessionTicketDetails
-  module SubtleData
+module SubtleData
+  class ConcessionTicketDetails
     attr_accessor :employee_id, :user_id, :number_of_people_in_party, :ticket_notes, :items, :terminal_id, :table_id, :revenue_center_id, :card_payments, :device_id
 
     # :internal => :external

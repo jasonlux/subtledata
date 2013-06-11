@@ -1,5 +1,5 @@
-class Employee
-  module SubtleData
+module SubtleData
+  class Employee
     attr_accessor :ssn, :last_name, :middle_name, :emergency_contact_number, :date_terminated, :dob, :alcohol_commission_number, :alcohol_commission_expiration_date, :first_name, :is_manager, :health_cert_number, :mobile_phone, :date_hired, :home_phone, :country_of_nationality, :emergency_contact_name, :health_cert_expiration_date, :date_last_review, :user_name, :email, :employee_id
 
     # :internal => :external

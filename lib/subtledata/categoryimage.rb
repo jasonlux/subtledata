@@ -1,5 +1,5 @@
-class CategoryImage
-  module SubtleData
+module SubtleData
+  class CategoryImage
     attr_accessor :image_url, :image_type_id
 
     # :internal => :external

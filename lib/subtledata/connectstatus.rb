@@ -1,5 +1,5 @@
-class ConnectStatus
-  module SubtleData
+module SubtleData
+  class ConnectStatus
     attr_accessor :result, :success, :error
 
     # :internal => :external

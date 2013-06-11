@@ -1,8 +1,3 @@
-require 'subtledata/tendertype'
-require 'subtledata/revenuecenter'
-require 'subtledata/discounttype'
-require 'subtledata/terminal'
-
 module SubtleData
   class Location
     attr_accessor :cross_streets, :receipt_number_instructions, :employee_request_through_app, :menu_ordering_available, :payment_via_credit_card_available_message, :postal_code, :location_id, :app_specials, :user_rating, :location_name, :tender_types, :process_new_credit_cards, :table_number_instructions, :state, :color_theme, :latitude, :logo_url, :website_url, :revenue_centers, :city, :ordering_available_message, :phone, :terminals, :location_picture_url, :favorites_ordering_available, :neighborhood_name, :discount_types, :longitude, :price_rating, :process_pre_authed_cards, :address_line_2, :address_line_1

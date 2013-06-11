@@ -1,5 +1,5 @@
-class Modifier
-  module SubtleData
+module SubtleData
+  class Modifier
     attr_accessor :modifier_id
 
     # :internal => :external
